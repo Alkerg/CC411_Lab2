@@ -24,7 +24,6 @@ def fermat(n):
 
 ## Algoritmo de factorización de Rabin
 
-
 ```python
 def reduccion(n):
   y = random.randint(2, n-2)
@@ -52,6 +51,7 @@ Las pruebas se realizaron con los siguientes valores de N
 ```python
 n_values = [21, 22275377, 72401183, 8904031, 95532967, 40053991, 165725927, 173640199, 221777863, 299526169]
 ```
+Los resultados de las pruebas se muestran a continuación. En general el algoritmo de Rabin es mucho más lento que el algoritmo de Fermat para números grandes.
 
 ```python
 N:  21
